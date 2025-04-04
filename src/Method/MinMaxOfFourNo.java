@@ -12,5 +12,6 @@ public class MinMaxOfFourNo {
         System.out.println(Math.max(a,Math.max(b,Math.max(c,d))));
         System.out.println(Math.min(a,Math.min(b,Math.min(c,d))));
 
+
     }
 }
