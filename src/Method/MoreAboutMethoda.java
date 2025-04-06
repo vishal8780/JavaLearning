@@ -5,10 +5,10 @@ public class MoreAboutMethoda {
     //now will start using the method
     public static void meth1() {
         System.out.println("Good Morning brother");
-
+            int n=10;
         for (int i = 1; i <= 10; i++) {
 
-            System.out.print(i+ " ");
+            System.out.println("product of number "+  i*n+ " ");
         }
         System.out.println(" ");
     }
