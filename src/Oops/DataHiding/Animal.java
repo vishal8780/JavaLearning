@@ -5,14 +5,12 @@ class AnimalTest{
     private int animalAge;
 
     public String getAnimalName() {
+
         return animalName;
     }
 
     public void setAnimalName(String animalName) {
 
-        //why we are using this keyword here becoz of parameter is same as instance variable
-        //Java would think you are just referring to the method parameter — not the class field.
-        // so with the help of this keyword we can tell refer to the class field
         this.animalName = animalName;
     }
 
