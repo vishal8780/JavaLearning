@@ -28,7 +28,7 @@ public class CarsTest {
     public static void main(String[] args) {
         Casr casr = new Casr();
         System.out.println("Model  " + casr.getModel() + " year  " + casr.getYear());
-        Casr casr1= new Casr("tatamoter","2021");
+        Casr casr1= new Casr("Mahindra Thar","2021");
         System.out.println("Model== " + casr1.getModel() +"Year==  " + casr1.getYear());
 
     }
